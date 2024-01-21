@@ -3,6 +3,23 @@ html{
     scroll-behavior: smooth;
 }
 
+/* Define the styles for the scrollbar track */
+::-webkit-scrollbar {
+    width: 12px; /* width of the scrollbar */
+  }
+  
+  /* Define the styles for the scrollbar handle or thumb */
+  ::-webkit-scrollbar-thumb {
+    background-color: #3498db; /* color of the scrollbar thumb */
+    border-radius: 6px; /* rounded corners of the thumb */
+  }
+  
+  /* Define the styles for the scrollbar track piece above and below the handle */
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* color of the scrollbar track */
+  }
+  
+
 *{
     box-sizing: border-box;
     margin: 0;
