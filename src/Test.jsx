@@ -1,11 +1,11 @@
-import React from 'react'
+import { motion } from 'framer-motion'
 
 const Test = () => {
   return (
     <div className='course'>
-      <div className="box">
+      <motion.div className="box" initial={{opacity: 0, scale : 0.5}} animate={{opacity:0}} transition={{duration:2, delay:2}}>
 
-      </div>
+      </motion.div>
     </div>
   )
 }
