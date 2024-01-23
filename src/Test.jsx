@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 
 
-const variants = {
-  visible : {opacity: 1},
-  hidden  : {opacity: 0}
-}
+// const variants = {
+//   visible : {opacity: 1},
+//   hidden  : {opacity: 0}
+// }
 const Test = () => {
   return (
     <div className="course">
