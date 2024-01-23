@@ -10,7 +10,7 @@ const Sidebar = () => {
         <div className="bg">
             <Links />
         </div>
-        <ToggleButton />
+            <ToggleButton />
     </div>
   )
 }
