@@ -2,6 +2,7 @@
     height: calc(100vh - 100px);
     background: linear-gradient(180deg, #0c0c1d, #111132);
     overflow: hidden;
+    position: relative;
 
     .wrapper{
         max-width: 1366px;
@@ -48,7 +49,6 @@
     
             img{
                 width: 50px;
-                position: relative;
             }
         }
         }
@@ -56,10 +56,10 @@
     .imageContainer{
         height: 100%;
         position: absolute;
-        top: 120px;
+        top: 50px;
         right: 30px;
         overflow: hidden;
-        border-radius: 50%;
+        border-radius: 20%;
     }
 
     .slidingContainer {
@@ -68,9 +68,9 @@
         bottom: 0; /* Adjust as needed */
         white-space: nowrap;
         color: #ffffff09;
-        width: 80%;; /* Center the container horizontally */ /* Center the container horizontally */
+        width: 50%;; /* Center the container horizontally */ /* Center the container horizontally */
         font-weight: bold;
-        overflow: hidden; /* Hide overflowing content */
-        animation: slideUp 5s linear infinite; 
+        // overflow: hidden; /* Hide overflowing content */
+        // animation: slideUp 5s linear infinite; 
     }
 }
