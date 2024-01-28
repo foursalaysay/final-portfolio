@@ -57,7 +57,7 @@ const Hero = () => {
             Developer Engineer Ethical Hacker
         </motion.div>
         <div className="imageContainer">
-            <img src="/123.jpg" alt="" />
+            <img src="/pic.svg" alt="" />
         </div>
     </div>
   )
